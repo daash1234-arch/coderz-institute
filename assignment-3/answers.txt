@@ -1,0 +1,6 @@
+في حاله استخدام TABلللإنتقال من السؤال ثم الضغط على Enter يفتح السؤال وتطهر استخداملإجابه 
+خطأ في path لازم يطلع على root لأنو نحن داخل pages folder
+<video src="../media/intro.mp4"  
+لايجوز كتابه mute لأنو الصوت لن يظهر
+preload="none"يقوم المتصفح بتحميل الفيديو قبل الضغط على زر التشغيل
+<video src="../media/intro.mp4" controls preload="none"></video>

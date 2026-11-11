@@ -1,0 +1,4 @@
+email open in the same web
+MDN open to the new browser 
+بدأت من الصفحه Main ثم انتقلت للصفحه Index,Courses,Contact
+من صفحه Index انتقلت ل HTML Coursrs وذلك من خلال تحديد دوره HTML
