@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+ <html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1">
+    <title>معهد Coderz</title>
+    
+    <!-- =============== -->
+ </head>
+  
+
+ <body>
+
+    <!-- رأس الصفحه وشريط التنقل-->
+    <header class="page-title">
+        <h1>استفسر عن الكورس </h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">الرئيسية</a></li>
+                <li><a href="schedule.html">المواعيد</a> </li>
+                <li><a href="inquiry.html">الإستفسار</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <form>
+            <!-- الإسم كامل -->
+            <label for="full-name">الإسـم كامل (مطلوب على الأقل حرفين)</label>
+            <input id="full-name" name="fullname" type="text" placeholder="name" autocomplete="name" value="" required>
+            <br><br>
+
+            <!-- البريد الإلكتروني-->
+             <label for="email"> البريد الإلكتروني</label>
+             <input id="email" name="email" type="email" placeholder="example@gmail.com" autocomplete="email" required>
+             <br><br> 
+
+             <!-- رقم التلفون -->
+              <label for="phoneNo">رقم الهاتف</label>
+              <input id="PhoneNo" name="phoneNo" type="tel" placeholder="07xxxxxxx">
+              <br><br>
+
+              <!-- اختيار الكورس-->
+               <label for="course">كــورس</label>
+               <select id="course" name="course">
+                    <option value="">اختر كورسا</option>
+                    <option value="content">HTML Content</option>
+                    <option value="forms">Html Forms</option>
+                </select> 
+                <br><br>
+
+                <!-- عدد المقاعد-->
+                 <label for="seats">عدد المقاعد</label>
+                 <input id="seats" name="seats" type="number" min="1" max="5" value="1" required>
+                 <br><br>
+
+                 <!-- التاريخ المفضل-->
+                <label for="course-date">التاريخ المفضل</label>
+                <input id="course-date" name="course-date" type="date" required >
+                <br><br>
+                
+                <!-- نص الإستفسار-->
+                 
+                    <label for="message"> الرجاء كتابه الملاحظات في المربع بحيث لا يتجاوز عن 100 حرف</label>
+                    <textarea id="message" name="messege" maxlength="100" col="30" rows="3"></textarea>
+                <br><br>
+
+
+                <!-- submit button--> 
+                 <button type="submit"> خـزن </button>
+        </form>
+
+    </main>
+ </body>
+ </html>
