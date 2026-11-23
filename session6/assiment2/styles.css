@@ -16,10 +16,10 @@ h1{color:navy;}
 
 
 
-a[href="#topics"]:hover {
+.button:hover {
     color: yellow;
 }
 
-a[href="#topics"]:focus-visible {
+.button:focus-visible {
     outline: 2px dashed red;
 }
