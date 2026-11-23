@@ -1,0 +1,9 @@
+ <link rel="stylesheet" href="../styles.css"> course page
+ <link rel="stylesheet" href="styles.css"> index page
+ .course-card[data-status="Full"] .status {
+    background-color: gray;} if the data-status=Full 
+    it will change the background color for the text to gray.
+    class course-card in the artical and the class status
+    is the span tag
+
+}
