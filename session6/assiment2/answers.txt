@@ -14,3 +14,17 @@ it is orange any where in the styles file
 it's green 
  because the proirty for class is stronger than 
  the element any where in the css file
+ 
+ Q3 
+ part1
+ the paregraph color is gray #374151 
+ from parent class course-card
+
+ part2
+  .course-card >p child combinator , its only the next paregraph
+   direct child they found.
+ but because the detail class inside the div tag 
+so it means grandchild so it doesn't take same color
+
+.course-card p desecndant combinator all the paregraphtake
+the same color
