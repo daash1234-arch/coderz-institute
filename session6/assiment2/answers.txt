@@ -28,3 +28,4 @@ so it means grandchild so it doesn't take same color
 
 .course-card p desecndant combinator all the paregraphtake
 the same color
+
