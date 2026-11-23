@@ -6,5 +6,11 @@ it is purple
  the element
 
  Q2
- it is orange
+ part1
 
+it is orange any where in the styles file 
+ 
+ part2 
+it's green 
+ because the proirty for class is stronger than 
+ the element any where in the css file
