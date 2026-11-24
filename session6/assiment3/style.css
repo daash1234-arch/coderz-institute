@@ -22,7 +22,7 @@ h1, h2 {
 .course-card h2 {
         font-size: 1.5em;
         }
-.course-card p {
+.course-card >p {
             background: #fff4d9;
         }
 .course-card h2::before {

@@ -9,3 +9,14 @@ the spelling for var --brand is error
   because it was writting in the main HTML file and it's
   strong style in CSS file . So  fix the error by removing 
   from main file.the it will take the same color in brand var
+
+  Third mistake:
+  the background color for the <p> in class course-card 
+  and the <p> in detail class have the same color .
+  so we fix it by add >p after the course-card class it's 
+  a parent class ,so it's mean can control to the first <p> under 
+  not on the child <p> 
+  
+  .course-card >p {
+            background: #fff4d9;
+        } 
