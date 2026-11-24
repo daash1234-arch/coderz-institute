@@ -1,58 +1,77 @@
-body{
-    background-color:#f4f7f8;
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f5f3ff;
     text-align: center;
-
-}
-h1{
-    color:#12546C;
+  
     
 }
-h2{
-    color:#5F6F78
+
+h1{
+    margin: 0;
 }
-
-
-
 
 .all{
-    
-    box-sizing: border-box;
-    width: 500px;
-    margin-inline:auto;
-    padding: 5px 20px;
-     border: 5px solid #12546C;
-    background-color: #ffffff;
-    border-width: 5px;
-    border-radius: 20px;
-    box-shadow: 0px 15px 12px rgba(18, 84, 108, 0.15) ;
+     box-sizing: content-box;
+    margin: auto;
+    width: 330px;
+     padding: 10px;
+     border: 5px solid #ddd6fe;
+     border-radius: 10px;
+     background-color: #ffffff;
+     box-shadow: 0px 15px 12px rgba(109, 40, 217, 0.12) ;
+     
 }
-.display1{
-    
-   display:inline-block;
-    color: #237A36;
-    padding-inline: 5px 10px;
-   border-radius: 20px;
-   background-color: #E5F7E8;
+
+.display{
+    display: inline-block;
+    padding: 6px 16px;
+    background-color: #ede9fe;
+    color: #6d28d9;
+    font-size: 16px;
+    font-weight:900;
+    border-radius: 50px;
+
+}
+
+.title h1{
+    color:#1f2937;
+    font-size: 30px;
+   margin:12 0 0;
+}
+
+
+.price h1{
+    color: #6d28d9;
+    font-size: 40px;
+    font-weight: 900;
+   /* margin:6px;*/
+}
+
+.note{
+   
+    color: #6b7280;
+    font-weight: 900;
+    margin:4px 0 12px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e7eb;
+}
+ 
+.info p{
+  
+    color:#1f2937;
+    font-size: 16px;
+    font-weight: 900;
   
 }
-.button1,
-.button2{
-    box-sizing: border-box;
-    display: inline-block;
-    padding: 5px 15px;
-    border-radius: 10px;
-    margin-left: 20px;
-    border: 3px solid #12546C;
+.button1{
+   box-sizing: content-box;
+   font-size: 16px;
+    font-weight: 500;
+   width:300px;
+   padding: 4px 10px;
+   background-color: #6d28d9;
+   color: #ffffff;
+   border: 2px solid #6d28d9;
+   border-radius: 10px;
    
-    text-decoration: none;
-}
-
-.button1 {
-    color: white;
-    background-color: #12546C;
-}
-
-.button2 {
-    color: rgb(78, 78, 229);
-    background-color: white;
 }
