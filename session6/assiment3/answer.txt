@@ -1,0 +1,11 @@
+first mitake :
+the spelling for var --brand is error 
+  color: var(--brand);/* spelling brnad to brand*/
+  when run the page h2and h1 didn't take the brand color
+  when change it only h2 take the color.
+
+  Second mistake : 
+  h1 take the color in the  <!--style="color: tomato;"-->
+  because it was writting in the main HTML file and it's
+  strong style in CSS file . So  fix the error by removing 
+  from main file.the it will take the same color in brand var
