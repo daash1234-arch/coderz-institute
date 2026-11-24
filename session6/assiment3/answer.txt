@@ -1,0 +1,44 @@
+first mitake :
+the spelling for var --brand is error 
+  color: var(--brand);/* spelling brnad to brand*/
+  when run the page h2 and h1 didn't take the brand color
+  when change it only h2 take the color.
+
+  Second mistake : 
+  h1 take the color in the  <!--style="color: tomato;"-->
+  because it was writting in the main HTML file and it's
+  strong style in CSS file . So  fix the error by removing 
+  from main file.the it will take the same color in brand var
+
+  Third mistake:
+  the background color for the <p> in class course-card 
+  and the <p> in detail class have the same color .
+  so we fix it by add >p after the course-card class it's 
+  a parent class ,so it's mean can control to the first <p> under 
+  not on the child <p> 
+  
+  .course-card >p {
+            background: #fff4d9;
+        } 
+    
+    Fourth mistake
+    to change the only h2 font size 1.5 from em to rem 
+    so it will be follow the root font size . but em follow the parent font size.
+    .course-card h2 { 1.5em
+        font-size: 1.5rem;} 
+
+    fifth mistake
+    use ::before to add "." 
+    .course-card h2::before {
+        content: " ." ;
+        }
+
+        Six mistake
+        to make hover work only remove the space in Css file
+        .action:hover {
+        color: #6845a8;
+        }
+         and to make the outline thicker change the no from 0 to 3 in the css file
+         .action:focus-visible {
+        outline: 3 solid orange;
+    }
