@@ -19,8 +19,13 @@ h1, h2 {
 .course-card {
         font-size: 20px;
         }
+
 .course-card h2 {
         font-size: 1.5rem;
+        }
+
+.course-card h2::before {
+        content: " ." ;
         }
 .course-card >p {
             background: #fff4d9;

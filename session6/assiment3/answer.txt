@@ -24,5 +24,11 @@ the spelling for var --brand is error
     Fourth mistake
     to change the only h2 font size 1.5 from em to rem 
     so it will be follow the root font size . but em follow the parent font size.
-    .course-card h2 {
+    .course-card h2 { 1.5em
         font-size: 1.5rem;} 
+
+    fifth mistake
+    use ::before to add "." 
+    .course-card h2::before {
+        content: " ." ;
+        }
