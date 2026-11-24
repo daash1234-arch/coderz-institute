@@ -13,13 +13,14 @@ h1{color:navy;}
     color :inherit;
 }
 
-
-
-
-.button:hover {
-    color: yellow;
+a{    text-decoration: none;
 }
 
-.button:focus-visible {
-    outline: 2px dashed red;
+
+a[href="#topics"]:hover {
+    color: yellow;              
 }
+
+a[href="#topics"]:focus-visible {
+    outline: 2px dashed rgb(88, 5, 242);
+}           
