@@ -1,5 +1,5 @@
 :root {
-        --brand: #12546c;
+        --brand: #1c0578;
         font-size: 16px;
       }
 
@@ -19,21 +19,27 @@ h1, h2 {
 .course-card {
         font-size: 20px;
         }
+
 .course-card h2 {
         font-size: 1.5em;
         }
+
 .course-card p {
             background: #fff4d9;
         }
+
 .course-card h2::before {
         color: var(--brand);
         }
+
 .action {
         color: #12546c;
         }
+
 .action :hover {
         color: #6845a8;
         }
+
 .action:focus-visible {
         outline: 0 solid orange;
     }
