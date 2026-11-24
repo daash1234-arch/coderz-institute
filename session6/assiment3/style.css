@@ -1,5 +1,5 @@
 :root {
-        --brand: #1c0578;
+        --brand: rgb(0, 255, 8);
         font-size: 16px;
       }
 
@@ -9,7 +9,7 @@ body {
     }
 
 h1, h2 {
-        color: var(--brnad);
+        color: var(--brand);/*خطأ في الكتابه */
         }
 
 .course-card {

@@ -1,0 +1,6 @@
+Q1
+chacnge the spelling for var -- brand in line 12 and it 
+will affect only h2 because h1 have the style inside the 
+HTML tag in the main file tomato color and it's strong than css file.
+
+to make h1 and h2 affect remove the style in h1 tag in main file.
