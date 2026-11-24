@@ -65,7 +65,7 @@ h1{
 }
 .button1{
    box-sizing: content-box;
-   text-wrap: :wrap;
+   text-wrap: wrap;
    font-size: 16px;
     font-weight: 500;
    width:300px;
