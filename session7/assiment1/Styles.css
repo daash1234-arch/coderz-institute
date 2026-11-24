@@ -1,7 +1,57 @@
-.card {
- box-sizing: content-box;
- width: 200px;
- padding-inline: 20px;
- /* margin-inline: 20px; */
- border: 5px solid #12546c;
- }
+body{
+    background-color:#f4f7f8;
+
+}
+h1{
+    color:#12546C;
+    
+}
+h2{
+    color:#5F6F78
+}
+
+
+
+
+.all{
+    
+    box-sizing: border-box;
+    width: 500px;
+    margin-inline:auto;
+    padding: 5px 20px;
+     border: 5px solid #12546C;
+    background-color: #ffffff;
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 12px rgba(18, 84, 108, 0.15) ;
+}
+.display1{
+    
+   display:inline-block;
+    color: #237A36;
+    padding-inline: 5px 10px;
+   border-radius: 20px;
+   background-color: #E5F7E8;
+  
+}
+.button1,
+.button2{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 3px solid #12546C;
+   
+    text-decoration: none;
+}
+
+.button1 {
+    color: white;
+    background-color: #12546C;
+}
+
+.button2 {
+    color: rgb(78, 78, 229);
+    background-color: white;
+}
