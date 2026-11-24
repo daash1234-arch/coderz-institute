@@ -1,7 +1,7 @@
 first mitake :
 the spelling for var --brand is error 
   color: var(--brand);/* spelling brnad to brand*/
-  when run the page h2and h1 didn't take the brand color
+  when run the page h2 and h1 didn't take the brand color
   when change it only h2 take the color.
 
   Second mistake : 
