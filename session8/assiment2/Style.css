@@ -1,5 +1,54 @@
 :root{
+     --backgroundpage:#cbdaee;
+     --addressNo:#2563eb;
+     --backgroundplate:#E2e8f0;
+     --backgroudcard:#ffffff;
+     --cardtext:#183b42;
+     --cardborder:#cbd5e1;
+}
+
+body{
+    background: var(--backgroundpage);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   padding-top: 50px;
+}
+
+h1{ 
+    color: var(--addressNo);
+    text-align: center;
+    
+   
+}
 
 
+
+.main{
+    display: flex;
+    background-color: var(--backgroundplate);
+    border:3px solid var(--cardborder);
+    border-radius: 10px;
+    
+    margin: auto;
+    width: 50%;
+    padding-block: 100px;
+    /*padding: 5px 10px;*/
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
     
 }
+ .card{
+    display:inline-block;
+    border: 3px solid var(--cardborder); 
+    background: var(--backgroudcard);
+    border-radius: 10px;
+    padding-inline:  40px;
+    padding-block: 10px;
+ }
+
+ .details{
+    color:var(--cardtext);
+    font-weight: 900;
+
+ }
