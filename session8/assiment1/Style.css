@@ -1,0 +1,101 @@
+:root{
+    --backgroundcolor:#f4f7f8;
+    --cardsbuttontext:#ffffff;
+    --logobuttonbadges:#12546c;
+    --addresslinks:#183b42;
+    --discribe:#64748b;
+    --borders:#cbd5e1;
+    --backgroundbadges:#e0f2f1;
+}
+ h2,h1{ margin: 0;}
+
+body{
+    background: var(--backgroundcolor);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title{
+    box-sizing: content-box;
+     display:flex;
+     padding: 2px 5px;
+     margin-top: 30px;
+     background: var(--cardsbuttontext);
+     border: 2px solid var(--borders);
+     border-radius: 10px;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.headers{
+        color:var(--logobuttonbadges);
+        font-weight: 900;
+
+}
+ 
+.links {
+    display: flex;
+    color: var(--addresslinks);
+    gap: 20px;
+    
+}
+
+.links a{
+    text-decoration: none;
+    }
+
+.address{
+    color: var(--addresslinks);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.detail{
+    color:var(--discribe);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.cards{
+    box-sizing: content-box;
+    display:flex;
+    padding-block: 20px;
+    gap:60px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.carddetail{
+    display:inline-block;
+     background: var(--cardsbuttontext);
+    width: 180px;
+    padding: 5px 15px;
+    border: 3px solid var(--borders);
+    border-radius: 10px;
+    }
+
+.badge{
+    display:inline-block;
+    margin-top: 5px;
+   padding-inline: 8px;
+    border:2px solid  var(--borders);
+    margin-bottom: 5px;
+    background: var(--backgroundbadges);
+    color: var(--logobuttonbadges);
+    border-radius: 10px;
+}
+
+.button1{
+    display:inline-block;
+    border: 3px solid var(--logobuttonbadges);
+    background: var(--logobuttonbadges);
+    color:var(--cardsbuttontext);
+    border-radius: 10px;
+    margin-top: 15px;
+    padding : 3px 15px;
+
+
+}
