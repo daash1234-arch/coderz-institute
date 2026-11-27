@@ -1,0 +1,90 @@
+:root{
+    --backgroundpage:#F5F3FF;
+    --cartextmainbutton:#ffffff;
+    --buttonsjobtech:#6d28d9;
+    --backgroundtech:#ede9fe;
+    --name:#183b42;
+    --describe:#64748b;
+    --border:#cbd5e1;
+}
+
+body{
+    background: var(--backgroundpage);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+h1{
+    color:var(--name);
+    margin-bottom: 0;
+
+}
+main{
+     min-height: 100vh;/*لإجبار الصفحه على أخذ طول الشاشه*/
+    display: flex;
+    justify-content: center;/* للتوسيط الأفقي*/
+    align-items: center;/* لتوسيط النصوص والصور الصغيره داخل ابطاقه*/
+}
+.card{
+   
+    display:flex;
+     background: var(--cartextmainbutton);
+     border: 3px solid var(--border);
+     border-radius: 10px;
+     width: 240px;
+     min-width:fit-content;
+     padding:  10px;
+     gap:10px;
+    
+    }
+
+.photo{
+   display: inline-block; 
+   padding: 20px;
+   height: 180px;
+    width: 180px;
+}
+
+
+.job{
+  color: var(--buttonsjobtech);
+  font-weight: 900;
+
+}
+.detail{
+    color:var(--describe);
+    font-weight: 900;
+}
+.tech{
+   display:inline-block;
+    color: var(--buttonsjobtech);
+    background: var(--backgroundtech);
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    padding-inline: 10px;
+    margin-bottom: 10px;
+}
+
+.button1{
+    display: inline-block;
+    border: 2px solid var(--buttonsjobtech);
+    color: var(--cartextmainbutton);
+    background: var(--buttonsjobtech);
+    border-radius: 10px;
+    padding-inline: 30px;
+    padding-block:5px ;
+    font-weight: 900;
+}
+
+.button2{
+    display: inline-block;
+    border: 2px solid var(--buttonsjobtech);
+    color: var(--buttonsjobtech);
+    background: var(--cartextmainbutton);
+    border-radius: 10px;
+    padding-inline: 30px;
+    padding-block:5px ;
+    font-weight: 900 ;
+}
+
+
+
