@@ -1,4 +1,181 @@
 :root{
+    --backgroundpage:#f8fafc;
+    --backgroundcard:#ffffff;
+    --backgroundcol:#f1f5f9;
+    --address:#0f172a;
+    --detail:#64748b;
+    --border:#cbd5e1;
+    --backgroundfirst:#dbeafe;
+    --firsttext:#1d4ed8;
+    --backgroundsecond:#fef3c7;
+    --secondtext:#92400e;
+    --backgroundthird:#dcfce7;
+    --thirdtext:#166534;
 
+}
+
+body{
+    background: var(--backgroundpage);
+   /* إضافه خط جديد من google وتم تعريفه من HTML اسم الخط Cairo*/
+    font-family:"Cairo",sans-serif;
     
+
+}
+h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 700;
+}
+h3,h4{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+main{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    display: inline-block;
+     border: 3px solid var(--border);
+    background: var(--backgroundcol);
+    border-radius: 10px;
+    padding-block: 10px;
+    width: 250px;
+ }
+
+ .info{
+    display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+    justify-content: space-between;
+    
+ }
+ 
+
+ .NO1{
+   display: inline-flex;
+    color:var(--firsttext);
+   background: var(--backgroundfirst);
+   border: 2px solid var(var(--backgroundfirst));
+   /* لجعل دائره حول الرقم يجب تحديدhight and widthand raduis50%*/
+   border-radius: 50%;
+   width: 30px;
+   height: 35px;
+   justify-content: center;
+   text-align: center;
+   /*---*/
+   font-weight: 900;
+
+ }
+ 
+  .NO2{
+   display: inline-flex;
+    color:var(--secondtext);
+   background: var(--backgroundsecond);
+   border: 2px solid var(var(--backgroundsecond));
+   /* لجعل دائره حول الرقم يجب تحديدhight and widthand raduis50%*/
+   border-radius: 50%;
+   width: 30px;
+   height: 35px;
+   justify-content: center;
+   text-align: center;
+   /*---*/
+   font-weight: 900;
+
+ } 
+
+  .NO3{
+   display: inline-flex;
+    color:var(--thirdtext);
+   background: var(--backgroundthird);
+   border: 2px solid var(var(--backgroundthird));
+   /* لجعل دائره حول الرقم يجب تحديدhight and widthand raduis50%*/
+   border-radius: 50%;
+   width: 30px;
+   height: 35px;
+   justify-content: center;
+   text-align: center;
+   /*---*/
+   font-weight: 900;
+
+ }
+
+.insidecard{
+    display:flex;
+    flex-direction: column;
+    width: 230px;
+    row-gap: 20px;
+    padding-top: 20px;
+    margin: auto;
+  
+}
+
+ .first{
+  
+   display: inline-block;
+   border:3px solid var(--backgroundcard);
+    border-radius: 10px;
+    background: var(--backgroundcard);
+  padding-bottom: 10px;
+
+ }
+ 
+ .second{
+     
+   display: inline-block;
+   border:3px solid var(--backgroundcard);
+    border-radius: 10px;
+    background: var(--backgroundcard);
+    padding-bottom: 10px;
+ }
+
+
+.badge1{
+    display: inline-block;
+    color:var(--firsttext);
+   border: 1px salid var(var(--backgroundfirst));
+   
+   padding-inline:15px;
+   border-radius: 50px;
+   background: var(--backgroundfirst);
+}
+
+.badge2{
+    display: inline-block;
+    color:var(--secondtext);
+   border: 1px salid var(var(--backgroundsecond));
+   
+   padding-inline:15px;
+   border-radius: 50px;
+   background: var(--backgroundsecond);
+}
+
+.badge3{
+    display: inline-block;
+    color:var(--thirdtext);
+   border: 1px salid var(var(--backgroundthird));
+   
+   padding-inline:15px;
+   border-radius: 50px;
+   background: var(--backgroundthird);
+}
+
+
+.detail{
+    color: var(--detail);
+    margin-bottom: 10px;
 }
